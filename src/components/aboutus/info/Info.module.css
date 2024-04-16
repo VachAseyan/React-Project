@@ -1,0 +1,27 @@
+.tox{
+    width: 100%;
+    height: 100px;
+    background-color: #F8D4E3;
+}
+
+.toxInfo{
+    width: 268px;
+    height: 19px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding:50px;
+}
+
+.toxInfo  img{
+    width: 15px;
+    height: 10x;
+    margin: auto;
+}
+
+.toxInfo a{
+    text-decoration: none;
+    color:#000000;
+    font-size: 16px;
+}

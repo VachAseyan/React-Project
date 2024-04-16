@@ -1,0 +1,74 @@
+.allDiv {
+    width: 1519px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #ECE0E5;
+}
+
+.offer {
+    width: 90%;
+    height: 650px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.vernagir {
+    font-size: 48px;
+    font-family: Lato;
+    color: #B3005E;
+}
+
+.offer p {
+    font-size: 20px;
+    font-family: Lato;
+    text-align: left;
+}
+
+.offer img {
+    margin: 5px;
+}
+
+.photoCakes {
+    width: 90%;
+    height: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.photoCakes a {
+    font-family: Lato;
+    font-size: 48px;
+    color: #201C1C;
+}
+
+.photoCakes p {
+    font-size: 20px;
+    font-family: Lato;
+}
+
+.photoCakes img {
+    width: 1400px;
+    height: 708px;
+}
+
+.photoCakes button {
+    width: 292px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #ECE0E5;
+    font-family: Lato;
+    border-radius: 52px;
+    border: none;
+    outline: none;
+}
+

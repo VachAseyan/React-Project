@@ -1,0 +1,135 @@
+.headerBox {
+    width: 100%;
+    height: 133px;
+    background-color: #F4C9DA;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    position: relative;
+}
+
+.numberOne {
+    font-family: Lato;
+    font-size: 24px;
+    color: #e6357b;
+    text-decoration: none;
+}
+
+.logoBox {
+    width: 80px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.logoBox img {
+    width: 25px;
+    height: 25px;
+}
+.menubar{
+    display: none;
+}
+.quantity {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    color: black;
+    border-radius: 70%;
+    padding: 4px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1532px) {
+    .headerBox {
+        height: 110px;
+    }
+    .headerBox a {
+        font-size: 20px;
+    }
+
+    .menubar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .headerBox {
+        height: 100px;
+    }
+    .headerBox a {
+        font-size: 16px;
+    }
+
+    .logoBox {
+        width: 70px;
+        height: 25px;
+    }
+
+    .logoBox img {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .headerBox {
+        height: 90px;
+    }
+    .headerBox a {
+        font-size: 12px;
+    }
+
+    .logoBox{
+        width: 60px;
+    }
+
+    .logoBox img {
+        width: 18px;
+        height: 18px;
+    }
+}
+
+@media screen and (max-width: 636px) {
+    
+    .headerBox {
+        height: auto;
+    }
+
+    .headerBox .HeaderLink {
+        display: none;
+    }
+
+    .logoBox a {
+        position: relative;
+        margin-top: 10px;
+    }
+
+    .logoBox img {
+        margin-right: 10px;
+        width: 25px;
+        height: 25px;
+    }
+    .menubar{
+        display: flex;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .headerBox {
+        height: 70px;
+    }
+    .logoBox img {
+        width: 30px;
+        height: 30px;
+    }
+
+}
+
+
+

@@ -1,0 +1,21 @@
+.order{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: #F8D4E3;
+}
+
+.order a{
+    color: #201C1C;
+    text-decoration: none;
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.order img{
+    width:100%;
+    height:600px;
+}

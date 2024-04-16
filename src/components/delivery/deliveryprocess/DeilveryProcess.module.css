@@ -1,0 +1,36 @@
+.deliveryBox{
+    width:100%;
+    height: 700px;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: #ECE0E5;
+}
+
+.deliveryBox img{
+    width: 564px;
+    height: 556px;
+}
+
+.deliveryText{
+    width: 678px;
+    height: 480px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    
+}
+
+.deliveryText a{
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: bold;
+}
+
+.deliveryText p{
+    font-family: Lato;
+    font-size: 20px;
+    text-align: left;
+}

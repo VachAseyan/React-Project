@@ -1,0 +1,24 @@
+.error {
+    color: red;
+    font-size: 40px;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto;
+    background-color: #ECE0E5;
+}
+
+.error a {
+    font-family: Lato;
+    font-size: 24px;
+    color: black;
+}
+
+.error h2 {
+    font-size: 70px;
+    color: black;
+    font-family: Lato;
+}

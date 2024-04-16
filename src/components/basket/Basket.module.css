@@ -1,0 +1,260 @@
+@font-face {
+    font-family: Lato;
+    src: url("../../components/home/fonts/Lato-Regular.ttf");
+}
+
+.basket {
+    width: 100%;
+    height:auto ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #ECE0E5;
+}
+
+.toBasket {
+    width: 176px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.toBasket a {
+    font-size: 18px;
+    font-family: Lato;
+}
+
+.basketItems {
+    width: 1300px;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    box-shadow: inset rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    border-radius: 45px;
+    margin-top: 20px;
+}
+
+.basketItems a {
+    font-size: 40px;
+    font-family: Lato;
+    color: #201C1C;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.basketList.selected {
+    background: #F1A0C0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    transition: 0.5s;
+  }
+  
+
+.basketItems .baskets {
+    width: 100%;
+    height:auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.basketItems .select {
+    width: 130px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.basketList {
+    width: 1100px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    border-bottom: 1px solid #201C1C;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.basketList .basketInfo {
+    width: 700px;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.basketList .basketInfo .text {
+    width: 580px;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.text h2 {
+    font-size: 24px;
+    color: #201C1C;
+}
+
+.text h4 {
+    font-size: 14px;
+    color: #000000;
+}
+
+.text p {
+    font-size: 14px;
+    color: 000000;
+    text-align: left;
+}
+
+.buyList {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.minusplyusDiv {
+    width: 169px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.buttonplyus {
+    width: 45px;
+    height: 45px;
+    background-color: #ECE0E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.buttonminus:hover {
+    background-color: #eea6a6;
+    transition: 1s;
+}
+
+
+.buttonminus {
+    width: 45px;
+    height: 45px;
+    background-color: #ECE0E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.buttonplyus:hover {
+    background-color: #B3005E;
+    transition: 1s;
+}
+.buyList .p {
+    font-size: 20px;
+    font-family: Lato;
+    color: #201C1C;
+    text-decoration: underline;
+    margin-top: 15px;
+}
+
+.total {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.payBox {
+    width: 355px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.payBox .form {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.payBox .form input {
+    width: 355px;
+    height: 47px;
+    box-shadow: inset rgba(0, 0, 0, 0.5) 0px 3px 8px;
+    outline: none;
+    border: none;
+    border-radius: 52px;
+    padding-left: 45%;
+    font-size: 16px;
+    font-family: Lato;
+    color: #201C1C;
+}
+
+
+.pay {
+    width: 120px;
+    height: 33px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.buyBasket {
+    width: 247px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.buyBasket button {
+    width: 292px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #ECE0E5;
+    font-family: Lato;
+    border-radius: 52px;
+    border: none;
+    outline: none;
+}
+
+.productFooter {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}

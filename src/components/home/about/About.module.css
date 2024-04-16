@@ -1,0 +1,50 @@
+.aboutUs {
+    width: 1467px;
+    height: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.aboutUs img {
+    width: 657px;
+    height: 683px;
+}
+
+.aboutText {
+    width: 678px;
+    height: 600px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.aboutText a {
+    font-size: 48px;
+    text-decoration: none;
+    font-family: Lato;
+    color: #201C1C;
+}
+
+.aboutText p {
+    text-align: left;
+    color: #201C1C;
+    font-size: 20px;
+}
+
+.button {
+    width: 292px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #ECE0E5;
+    font-family: Lato;
+    border-radius: 52px;
+    border: none;
+    outline: none;
+}
+

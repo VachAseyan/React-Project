@@ -1,0 +1,605 @@
+.cakeBox {
+    width: 100%;
+    height: 945px;
+    background-color: #F4C9DA;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.headerName {
+    text-decoration: none;
+    color: #201C1C;
+    font-family: Lato;
+    font-size: 96px;
+}
+
+.nextBox {
+    width: 100%;
+    height: 505px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.image1Box {
+    width: 500px;
+    height: 475px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.nextBox a{
+    color:#F47DAC;
+    font-size: 65px;
+}
+.image1 {
+    width: 321px;
+    height: 475px;
+}
+
+.image1Box .next1 {
+    font-size: 64px;
+    color: #F47DAC;
+    font-weight: 100;
+}
+
+.image2Box {
+    width: 483px;
+    height: 505px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.image2 {
+    width: 483px;
+    height: 505px;
+}
+
+.image3Box {
+    width: 500px;
+    height: 455px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+.image3Box .next2 {
+    font-size: 64px;
+    color: #F47DAC;
+    font-weight: 100;
+}
+
+.image3 {
+    width: 201px;
+    height: 452px;
+}
+
+.text {
+    width: 892px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text a {
+    font-size: 40px;
+    font-family: Lato;
+    color: #201C1C;
+}
+
+.button {
+    width: 292px;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #ECE0E5;
+    font-family: Lato;
+    border-radius: 52px;
+    border: none;
+    outline: none;
+}
+
+@media screen and (max-width: 1532px) {
+
+    .cakeBox {
+        height: 855px;
+    }
+
+    .image1Box,
+    .image3Box {
+        width: 400px;
+        height: 375px;
+    }
+
+    .cakeBox a {
+        font-size: 80px;
+    }
+
+    .text {
+        width: 792px;
+    }
+
+    .text a {
+        font-size: 36px;
+    }
+
+    .next1,
+    .next2 {
+        font-size: 54px;
+    }
+
+    .button {
+        width: 250px;
+        height: 58px;
+    }
+
+    .image1 {
+        width: 250px;
+        height: 375px;
+    }
+
+    .image2 {
+        width: 413px;
+        height: 415px;
+    }
+
+    .image3 {
+        width: 231px;
+        height: 452px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+
+    .cakeBox {
+        height: 805px;
+    }
+
+    .image1Box,
+    .image2Box,
+    .image3Box {
+        width: 380px;
+        height: 360px;
+    }
+
+    .cakeBox a {
+        font-size: 76px;
+    }
+
+    .text {
+        width: 772px;
+    }
+
+    .text a {
+        font-size: 34px;
+    }
+
+    .next1,
+    .next2 {
+        font-size: 52px;
+    }
+
+    .button {
+        width: 240px;
+        height: 56px;
+    }
+
+    .image1 {
+        width: 230px;
+        height: 325px;
+    }
+
+    .image2 {
+        width: 353px;
+        height: 365px;
+    }
+
+    .image3 {
+        width: 201px;
+        height: 422px;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+
+    .cakeBox {
+        height: 755px;
+    }
+
+    .image1Box,
+    .image2Box,
+    .image3Box {
+        width: 360px;
+        height: 300px;
+    }
+
+    .cakeBox a {
+        font-size: 72px;
+    }
+
+    .text {
+        width: 752px;
+    }
+
+    .text a {
+        font-size: 32px;
+    }
+
+    .next1,
+    .next2 a {
+        font-size: 40px;
+    }
+
+    .button {
+        width: 230px;
+        height: 54px;
+    }
+
+    .image1 {
+        width: 200px;
+        height: 185px;
+    }
+
+    .image2 {
+        width: 303px;
+        height: 305px;
+    }
+
+    .image3 {
+        width: 181px;
+        height: 352px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .cakeBox {
+        height: 705px;
+    }
+
+    .image1Box,
+    .image2Box,
+    .image3Box {
+        width: 340px;
+        height: 320px;
+    }
+
+    .cakeBox a {
+        font-size: 68px;
+    }
+
+    .text {
+        width: 732px;
+    }
+
+    .text a {
+        font-size: 30px;
+    }
+
+    .next1,
+    .next2 {
+        font-size: 48px;
+    }
+
+    .button {
+        width: 220px;
+        height: 52px;
+    }
+
+    .image1 {
+        width: 170px;
+        height: 155px;
+    }
+
+    .image2 {
+        width: 273px;
+        height: 275px;
+    }
+
+    .image3 {
+        width: 161px;
+        height: 322px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+
+    .cakeBox {
+        height: 605px;
+    }
+
+    .image1Box,
+    .image2Box,
+    .image3Box {
+        width: 270px;
+        height: 240px;
+    }
+
+    .cakeBox a {
+        font-size: 64px;
+    }
+
+    .text {
+        width: 712px;
+    }
+
+    .text a {
+        font-size: 28px;
+    }
+
+    .next1,
+    .next2 {
+        font-size: 46px;
+    }
+
+    .button {
+        width: 210px;
+        height: 50px;
+    }
+
+    .image1 {
+        width: 150px;
+        height: 135px;
+    }
+
+    .image2 {
+        width: 223px;
+        height: 235px;
+    }
+
+    .image3 {
+        width: 101px;
+        height: 222px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    .cakeBox {
+        height: 525px;
+    }
+
+    .image1Box,
+    .image2Box,
+    .image3Box {
+        width: 300px;
+        height: 280px;
+    }
+
+    .cakeBox a {
+        font-size: 60px;
+    }
+
+    .text {
+        width: 672px;
+    }
+
+    .text a {
+        font-size: 26px;
+    }
+
+    .next1  {
+        font-size: 34px;
+    }
+
+    .next2  {
+        font-size: 34px;
+        color:#F47DAC;
+    }
+
+    .button {
+        width: 200px;
+        height: 48px;
+    }
+
+    .image1 {
+        width: 110px;
+        height: 115px;
+    }
+
+    .image2 {
+        width: 183px;
+        height: 205px;
+    }
+
+    .image3 {
+        width: 91px;
+        height: 202px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+
+    .cakeBox{
+        height: 405px;
+    }
+
+    .image1Box,
+    .image2Box,
+    .image3Box {
+        width: 250px;
+        height: 150px;
+    }
+
+    .image1,
+    .image2,
+    .image3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .image1Box a{
+        font-size: 30px;
+        color:#F47DAC;
+    }
+    .name a{
+        font-size: 65px;
+    }
+
+    .button {
+        width: 200px;
+        height: 28px;
+        font-size: 20px;
+    }
+
+
+    .text {
+        width: 692px;
+    }
+
+    .text a {
+        font-size: 32px;
+    }
+
+    .nextBox a {
+        font-size: 28px;
+    }
+
+    .image1 {
+        width: 110px;
+        height: 115px;
+    }
+
+    .image2 {
+        width: 133px;
+        height: 145px;
+    }
+
+    .image3 {
+        width: 101px;
+        height: 152px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    .headerName{
+        font-size: 30px;
+    }
+
+    .cakeBox{
+        height: 625px;
+    }
+
+    .image1Box,
+    .image2Box,
+    .image3Box {
+        width: 50%;
+        height: auto;
+    }
+
+    .image1,
+    .image2,
+    .image3 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .button {
+        width: 150px;
+        height: 40px;
+        font-size: 18px;
+    }
+
+    .cakeBox a {
+        font-size: 48px;
+    }
+
+    .text {
+        width: 592px;
+    }
+
+    .text a {
+        font-size: 18px;
+    }
+
+    .next1,
+    .next2 {
+        font-size: 42px;
+    }
+
+    .image1 {
+        width: 100px;
+        height: 115px;
+    }
+
+    .image2 {
+        width: 133px;
+        height: 125px;
+    }
+
+    .image3 {
+        width: 91px;
+        height: 122px;
+        margin-left: 15px;
+    }
+
+    .nextBox a{
+        font-size: 20px;
+    }
+
+    .image3Box a {
+        font-size:20px ;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .headerName{
+        font-size: 30px;
+    }
+
+    .cakeBox{
+        height: 505px;
+    }
+
+    .image1Box,
+    .image2Box,
+    .image3Box {
+        width: 100%;
+        height: auto;
+    }
+
+    .image1,
+    .image2,
+    .image3 {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .button {
+        width: 120px;
+        height: 36px;
+        font-size: 16px;
+    }
+
+    .cakeBox a {
+        font-size: 36px;
+    }
+
+    .text {
+        width: 392px;
+    }
+
+    .text a {
+        font-size: 24px;
+    }
+
+    .next1,
+    .next2 {
+        font-size: 36px;
+    }
+}

@@ -1,0 +1,174 @@
+.product {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #ECE0E5;
+}
+
+.toProduct {
+    width: 348px;
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.cakeBox {
+    width: 1200px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.cakeBox .img {
+    width: 313px;
+    height: 326px;
+}
+
+.orderList {
+    width: 700px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.orderList h2 {
+    font-family: Lato;
+    font-size: 48px;
+    color: #201C1C;
+}
+
+.orderList h3 {
+    font-family: Lato;
+    font-size: 16px;
+    color: #201C1C;
+}
+
+.orderList .priceList {
+    width: 500px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.orderList .line {
+    width: 544px;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid #201C1C;
+}
+
+.orderList .watchSize {
+    width: 500px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.orderList .size {
+    width: 129px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.orderList .size:hover {
+    border-radius: 52px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    transition: 1s;
+}
+
+.orderList p {
+    text-align: left;
+    font-family: Lato;
+    font-size: 14px;
+}
+
+.selectCount {
+    width: 540px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.minusplyusDiv {
+    width: 169px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.buttonplyus {
+    width: 45px;
+    height: 45px;
+    background-color: #ECE0E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.buttonplyus:hover {
+    background-color: #eea6a6;
+    transition: 1s;
+}
+
+
+.buttonminus {
+    width: 45px;
+    height: 45px;
+    background-color: #ECE0E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+
+.buttonminus:hover {
+    background-color: #B3005E;
+    transition: 1s;
+}
+
+.buttonBuy {
+    width: 197px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #ECE0E5;
+    font-family: Lato;
+    border-radius: 52px;
+    border: none;
+    outline: none;
+    margin-top: 40px;
+}
+
+.productFooter {
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
